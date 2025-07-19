@@ -326,6 +326,15 @@ footer{
 
     .popular-collection {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+    .online-shops {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
     }
 
 }
