@@ -1,21 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 .poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* *{
     margin: 0px;
     padding: 0px;
 } */
 
 /* shared style */
-.display-flex{
+.display-flex {
     display: flex;
 }
+
 section {
     margin: 200px auto;
 }
@@ -26,11 +27,13 @@ header {
     margin: 0px auto;
 
 }
+
 .nav-bar {
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
 }
+
 .nav-title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -39,15 +42,18 @@ header {
     /* margin-left: 120px; */
     color: #3A3A3A;
 }
+
 .nav-ul {
     list-style: none;
     gap: 35px;
     /* margin-right: 120px; */
 }
+
 .nav-list a {
     text-decoration: none;
     color: #3A3A3A;
 }
+
 .nav-list a:hover {
     /* width: 500px;
     height: 500px; */
@@ -55,6 +61,7 @@ header {
     transition: 0.51s ease-in-out;
     /* animation-duration: 0.3s; */
 }
+
 /* header style */
 .head-button {
     border-radius: 41px;
@@ -67,61 +74,85 @@ header {
     font-weight: bold;
     align-items: center;
 }
-.head-button:hover{
+
+.head-button:hover {
     background-color: #ef0058;
     transition: 0.51s ease-in-out;
 }
+
 .head {
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    
-    
+
+
 }
+
 /* .head-info {
     max-width: 600px;
     height: 300px; */
 }
- .head-title {
+
+.head-title {
     font-size: 3.25rem;
     color: #3A3A3A;
- }
+}
+
 .head-description {
     color: #3A3A3A;
     font-size: 1rem;
     font-size: 600;
 }
+
 .head-info {
     max-width: 600px;
     height: 300px;
 }
+
 .head-img {
     position: relative;
     width: 475px;
 }
+
 .banner-img {
-     background-image: url(../images/Circle\ design.svg) ;
-     background-size:cover;
-     margin-right: 35px; 
-     width: 100%; 
+    background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
+    margin-right: 35px;
+    width: 100%;
 }
+
 .online-shops {
+    max-width: 1000px;
+    height: 110px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    margin: 100px auto;
     gap: 10px;
-    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
 }
+
+.online-shops {
+    box-shadow:
+        0 -1px 0px rgba(128, 125, 125, 0.2),
+        /* top shadow */
+        0 1px 0px rgba(130, 127, 127, 0.2);
+    /* bottom shadow */
+}
+
 .shop {
     /* height: 50px;
     max-width: 100px; */
 }
+
 /* main section style */
-main{
+main {
     max-width: 1100px;
     margin: 0px auto;
 }
+
 .collection-title {
     font-size: 1.75rem;
     font-weight: 600;
@@ -129,76 +160,170 @@ main{
     text-align: center;
     margin-bottom: 50px;
 }
-.star{
+
+.star {
     height: 16px;
     width: 16px;
     margin: 0px;
 }
+
 .card-title {
     font-size: 1.75rem;
     font-weight: 600;
     color: rgba(24, 25, 31, 1);
     margin: 0px;
 }
+
 .card-price {
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.87);
     margin: 0px;
 }
+
 .rating {
     display: flex;
     justify-content: start;
     align-items: center;
-    
+
 }
+
 .card-rating {
     gap: 10px;
     margin: 0px;
 }
+
 .card-rating-number {
     font-size: 0.90rem;
     font-weight: bold;
     color: rgba(94, 99, 102, 1);
 }
+
 .card-description {
     margin: 0px;
     font-size: 0.90rem;
     font-weight: bold;
     color: rgba(120, 120, 133, 1);
 }
-.collection-card{
+
+.collection-card {
     height: 480px;
     width: 330px;
-    box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.25) ;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.25);
     /* border: 1px solid black; */
     padding: 15px 0px 0px 20px;
 }
+
 .popular-collection {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: 0px auto;
 }
+
 .collection-card:hover {
     background-color: rgb(233, 231, 231);
     transition: 0.25s ease-in-out;
 }
 
+.see-more {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #E02C6D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
 
+.see-more:hover {
+    color: rgb(251, 0, 42);
+}
+
+.see-more img {
+    height: 20px;
+    width: 20px;
+}
+
+.featured {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #0A0826;
+    margin: 0px;
+
+}
+
+.featured-description {
+    font-size: 1rem;
+    font-size: bold;
+    color: #6C6C6C;
+    margin-bottom: 20px;
+}
+
+.featured-btn {
+    background-color: #E02C6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    gap: 13px;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    height: 55px;
+    width: 170px;
+}
+
+.featured-btn:hover {
+    background-color: #ef0058;
+    transition: 0.51s ease-in-out;
+}
+footer{
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(10, 8, 38, 1);
+}
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer-description {
+    font-size: 0.90rem;
+    font-weight: bold;
+    color: rgba(217, 219, 225, 1);
+
+}
+.footer-links a img {
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+}
 
 
 @media screen and (max-width: 767px) {
-    .nav-bar, .nav-ul, .head{
+
+    .featured,
+    .nav-bar,
+    .nav-ul,
+    .head {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-         margin: 0px;
+        margin: 0px;
         padding: 0px;
 
     }
+
     .nav-title {
         margin-right: 30px;
     }
+
     .popular-collection {
         grid-template-columns: repeat(1, 1fr);
     }
